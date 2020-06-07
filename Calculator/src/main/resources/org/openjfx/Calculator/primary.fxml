@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="282.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Calculator.PrimaryController">
+   <children>
+      <TextField fx:id="text" layoutX="35.0" layoutY="50.0" prefHeight="26.0" prefWidth="219.0" />
+      <Button fx:id="num1" layoutX="35.0" layoutY="91.0" mnemonicParsing="false" onAction="#num1" prefHeight="26.0" prefWidth="70.0" text="1" />
+      <Button fx:id="num6" layoutX="183.0" layoutY="127.0" mnemonicParsing="false" onAction="#num6" prefHeight="26.0" prefWidth="70.0" text="6" />
+      <Button fx:id="num2" layoutX="109.0" layoutY="91.0" mnemonicParsing="false" onAction="#num2" prefHeight="26.0" prefWidth="70.0" text="2" AnchorPane.topAnchor="91.0" />
+      <Button fx:id="num3" layoutX="183.0" layoutY="91.0" mnemonicParsing="false" onAction="#num3" prefHeight="26.0" prefWidth="70.0" text="3" />
+      <Button fx:id="num7" layoutX="35.0" layoutY="160.0" mnemonicParsing="false" onAction="#num7" prefHeight="26.0" prefWidth="70.0" text="7" />
+      <Button fx:id="num8" layoutX="109.0" layoutY="160.0" mnemonicParsing="false" onAction="#num8" prefHeight="26.0" prefWidth="70.0" text="8" />
+      <Button fx:id="num5" layoutX="109.0" layoutY="127.0" mnemonicParsing="false" onAction="#num5" prefHeight="26.0" prefWidth="70.0" text="5" />
+      <Button fx:id="num9" layoutX="183.0" layoutY="160.0" mnemonicParsing="false" onAction="#num9" prefHeight="26.0" prefWidth="70.0" text="9" />
+      <Button fx:id="plus" layoutX="35.0" layoutY="227.0" mnemonicParsing="false" onAction="#plus" prefHeight="26.0" prefWidth="46.0" text="+" />
+      <Button fx:id="close" layoutX="183.0" layoutY="194.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="70.0" text=")" />
+      <Button fx:id="num0" layoutX="109.0" layoutY="194.0" mnemonicParsing="false" onAction="#num0" prefHeight="26.0" prefWidth="70.0" text="0" />
+      <Button fx:id="open" layoutX="35.0" layoutY="194.0" mnemonicParsing="false" onAction="#open" prefHeight="26.0" prefWidth="70.0" text="(" />
+      <Button fx:id="num4" layoutX="35.0" layoutY="127.0" mnemonicParsing="false" onAction="#num4" prefHeight="26.0" prefWidth="70.0" text="4" />
+      <Button fx:id="sub" layoutX="94.0" layoutY="227.0" mnemonicParsing="false" onAction="#sub" prefHeight="26.0" prefWidth="46.0" text="-" />
+      <Button fx:id="mul" layoutX="152.0" layoutY="227.0" mnemonicParsing="false" onAction="#mul" prefHeight="26.0" prefWidth="46.0" text="x" />
+      <Button fx:id="div" layoutX="207.0" layoutY="227.0" mnemonicParsing="false" onAction="#div" prefHeight="26.0" prefWidth="46.0" text=":" />
+      <Button fx:id="clear" layoutX="34.0" layoutY="261.0" mnemonicParsing="false" onAction="#clear" prefHeight="26.0" prefWidth="97.0" text="C" />
+      <Button fx:id="equal" layoutX="192.0" layoutY="261.0" mnemonicParsing="false" onAction="#equal" prefHeight="26.0" prefWidth="62.0" text="=" />
+      <Button fx:id="nekoda" layoutX="141.0" layoutY="261.0" mnemonicParsing="false" onAction="#nekoda" prefHeight="26.0" prefWidth="39.0" text="." />
+   </children>
+</AnchorPane>
